@@ -26,7 +26,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -175,9 +175,7 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Improve**
+- [ ] **Improve design.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,8 +193,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -211,11 +207,9 @@ I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).
 
 <!-- FAQ (optional) -->
 
-<!--
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
+<!--
 - **[Question_1]**
 
   - [Answer_1]
