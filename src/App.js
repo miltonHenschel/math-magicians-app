@@ -1,6 +1,6 @@
-// import Calculator from './components/Calculator.js';
+import Calculator from './components/calculator/Calculator';
 import './App.css';
 
-const App = () => <div className="App" />;
+const App = () => <Calculator />;
 
 export default App;
