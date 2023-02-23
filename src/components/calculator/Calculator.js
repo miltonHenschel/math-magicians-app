@@ -1,3 +1,4 @@
+import Button from '../button/Button';
 import './calculator.css';
 
 function Calculator() {
@@ -12,71 +13,33 @@ function Calculator() {
               </td>
             </tr>
             <tr className="numbers">
-              <td className="table-data">
-                <button type="button">AC</button>
-              </td>
-              <td className="table-data">
-                <button type="button">+/-</button>
-              </td>
-              <td className="table-data">
-                <button type="button">%</button>
-              </td>
-              <td className="table-data sign">
-                <button type="button">÷</button>
-              </td>
+              <Button sign="AC" />
+              <Button sign="+/-" />
+              <Button sign="%" />
+              <Button sign="÷" className="table-data sign" />
             </tr>
             <tr className="numbers">
-              <td className="table-data">
-                <button type="button">7</button>
-              </td>
-              <td className="table-data">
-                <button type="button">8</button>
-              </td>
-              <td className="table-data">
-                <button type="button">9</button>
-              </td>
-              <td className="table-data sign">
-                <button type="button">x</button>
-              </td>
+              <Button sign="7" />
+              <Button sign="8" />
+              <Button sign="9" />
+              <Button sign="x" className="table-data sign" />
             </tr>
             <tr className="numbers">
-              <td className="table-data">
-                <button type="button">4</button>
-              </td>
-              <td className="table-data">
-                <button type="button">5</button>
-              </td>
-              <td className="table-data">
-                <button type="button">6</button>
-              </td>
-              <td className="table-data sign">
-                <button type="button">-</button>
-              </td>
+              <Button sign="4" />
+              <Button sign="5" />
+              <Button sign="6" />
+              <Button sign="-" className="table-data sign" />
             </tr>
             <tr className="numbers">
-              <td className="table-data">
-                <button type="button">1</button>
-              </td>
-              <td className="table-data">
-                <button type="button">2</button>
-              </td>
-              <td className="table-data">
-                <button type="button">3</button>
-              </td>
-              <td className="table-data sign">
-                <button type="button">+</button>
-              </td>
+              <Button sign="1" />
+              <Button sign="2" />
+              <Button sign="3" />
+              <Button sign="+" className="table-data sign" />
             </tr>
             <tr className="numbers">
-              <td colSpan={2} className="table-data">
-                <button type="button">0</button>
-              </td>
-              <td className="table-data">
-                <button type="button">.</button>
-              </td>
-              <td className="table-data sign">
-                <button type="button">=</button>
-              </td>
+              <Button sign="0" colSpan={2} />
+              <Button sign="." />
+              <Button sign="=" className="table-data sign" />
             </tr>
           </tbody>
         </table>

@@ -1,0 +1,20 @@
+td.table-data,
+button {
+  background-color: #dcdcdc;
+}
+
+button {
+  border: none;
+  padding: 2rem;
+}
+
+td.table-data.sign,
+.sign button {
+  background-color: #ffa500;
+}
+
+td.table-data {
+  border: 1px solid;
+  text-align: center;
+  cursor: pointer;
+}
