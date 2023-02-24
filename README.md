@@ -7,7 +7,7 @@
   <br/>
 -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Math Magicians App</b></h3>
 
 </div>
 
@@ -83,7 +83,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://miltonhenschel.github.io/math-magicians-app/public/)
+- [Live Demo Link](https://miltonhenschel.github.io/math-magicians-app/)
 <!--  
 - [Video presentation](https://www.loom.com/share/)
 -->
@@ -225,6 +225,6 @@ I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

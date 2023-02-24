@@ -1,7 +1,15 @@
+import { useState } from 'react';
 import Button from './button/Button';
 import './calculator.css';
+import calculate from '../../logic/calculate';
 
 function Calculator() {
+  const [result, setResult] = useState('');
+
+  const handleClick = (event) => {
+    setResult((prevState) => calculate(prevState, event.target.innerText));
+  };
+
   return (
     <div className="calculator">
       <div className="calculator-container">
@@ -9,37 +17,57 @@ function Calculator() {
           <tbody>
             <tr className="result">
               <td colSpan={4} className="table-data">
-                Result
+                {result.next || result.total || 0}
               </td>
             </tr>
             <tr className="numbers">
-              <Button sign="AC" />
-              <Button sign="+/-" />
-              <Button sign="%" />
-              <Button sign="÷" className="table-data sign" />
+              <Button sign="AC" handleOnClick={handleClick} />
+              <Button sign="+/-" handleOnClick={handleClick} />
+              <Button sign="%" handleOnClick={handleClick} />
+              <Button
+                sign="÷"
+                handleOnClick={handleClick}
+                className="table-data sign"
+              />
             </tr>
             <tr className="numbers">
-              <Button sign="7" />
-              <Button sign="8" />
-              <Button sign="9" />
-              <Button sign="x" className="table-data sign" />
+              <Button sign="7" handleOnClick={handleClick} />
+              <Button sign="8" handleOnClick={handleClick} />
+              <Button sign="9" handleOnClick={handleClick} />
+              <Button
+                sign="x"
+                handleOnClick={handleClick}
+                className="table-data sign"
+              />
             </tr>
             <tr className="numbers">
-              <Button sign="4" />
-              <Button sign="5" />
-              <Button sign="6" />
-              <Button sign="-" className="table-data sign" />
+              <Button sign="4" handleOnClick={handleClick} />
+              <Button sign="5" handleOnClick={handleClick} />
+              <Button sign="6" handleOnClick={handleClick} />
+              <Button
+                sign="-"
+                handleOnClick={handleClick}
+                className="table-data sign"
+              />
             </tr>
             <tr className="numbers">
-              <Button sign="1" />
-              <Button sign="2" />
-              <Button sign="3" />
-              <Button sign="+" className="table-data sign" />
+              <Button sign="1" handleOnClick={handleClick} />
+              <Button sign="2" handleOnClick={handleClick} />
+              <Button sign="3" handleOnClick={handleClick} />
+              <Button
+                sign="+"
+                handleOnClick={handleClick}
+                className="table-data sign"
+              />
             </tr>
             <tr className="numbers">
-              <Button sign="0" colSpan={2} />
-              <Button sign="." />
-              <Button sign="=" className="table-data sign" />
+              <Button sign="0" handleOnClick={handleClick} colSpan={2} />
+              <Button sign="." handleOnClick={handleClick} />
+              <Button
+                sign="="
+                handleOnClick={handleClick}
+                className="table-data sign"
+              />
             </tr>
           </tbody>
         </table>
