@@ -6,6 +6,7 @@ button {
 button {
   border: none;
   padding: 2rem;
+  font-weight: 900;
 }
 
 td.table-data.sign,
