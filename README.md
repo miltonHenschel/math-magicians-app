@@ -1,12 +1,13 @@
-
+<a name="readme-top"></a>
 
 <div align="center">
 
 <!--
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
+-->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Math Magicians App</b></h3>
 
 </div>
 
@@ -15,20 +16,17 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-   - [🛠 Built With](#built-with)
-      - [Tech Stack](#tech-stack)
-      - [Key Features](#key-features)
-
-   - [🚀 Live Demo](#live-demo)
-
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-   - [Setup](#setup)
-   - [Prerequisites](#prerequisites)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
-   - [Deployment](#deployment)
-
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -39,13 +37,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians App 
+# 📖 Math Magicians App <a name="about-project"></a>
 
 **Math Magicians App** is a Single Page App (SPA) website for all fans of mathematics which allows users to make simple calculations and read a random math-related quote.
 
-## 🛠 Built With 
+## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack 
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -70,10 +68,11 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+-->
 
 <!-- Features -->
 
-### Key Features 
+### Key Features <a name="key-features"></a>
 
 - **Make simple calculations.**
 - **Read a random math-related quote.**
@@ -82,17 +81,18 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo 
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://miltonhenschel.github.io/math-magicians-app/)
 <!--  
 - [Video presentation](https://www.loom.com/share/)
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started 
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -110,64 +110,57 @@ In order to run this project you need:
 
 - [ ] Clone this repository to your desired folder:
 
-```sh
+```
 git clone https://github.com/miltonHenschel/math-magicians-app.git
-
 ```
 
-```sh
+```
 cd math-magicians-app
-
 ```
 
 - [ ] Open the file in your code editor
 
-```text
+```
 code .
-
 ```
 
 ### Install
 
 - [ ] Create a react app:
 
-```sh
+```
 npx create-react-app .
-
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
+```
 npm start
-
 ```
 
 ### Run tests
 
 To run tests, run the following command:
 
-```text
+```
 npm test
-
 ```
 
 ### Deployment
 
 You can build this project using:
 
-```sh
+```
 npm run build
-
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors 
+## 👥 Authors <a name="authors"></a>
 
 👥 **Henschel Nketchogue M.**
 
@@ -180,7 +173,7 @@ npm run build
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features 
+## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Improve design.**
 
@@ -188,7 +181,7 @@ npm run build
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing 
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -198,7 +191,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support 
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project...
 
@@ -206,7 +199,7 @@ If you like this project...
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).**
 
@@ -214,7 +207,7 @@ I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ 
+## ❓ FAQ <a name="faq"></a>
 
 <!--
 - **[Question_1]**
@@ -224,12 +217,13 @@ I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).
 - **[Question_2]**
 
   - [Answer_2]
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License 
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
 
