@@ -85,7 +85,6 @@
 ## 🚀 Live Demo 
 
 - [Live Demo Link](https://miltonhenschel.github.io/math-magicians-app/)
-
 <!--  
 - [Video presentation](https://www.loom.com/share/)
 
