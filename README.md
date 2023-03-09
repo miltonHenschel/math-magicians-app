@@ -13,7 +13,10 @@
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+<details>
+  <summary>
+    <h1>📗 Table of Contents</h1>
+  </summary>
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -34,6 +37,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
+</details>
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -83,7 +87,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://miltonhenschel.github.io/math-magicians-app/)
+- [GitHub Pages](https://miltonhenschel.github.io/math-magicians-app/)
+- [Render](https://math-migicians.onrender.com/)
 <!--  
 - [Video presentation](https://www.loom.com/share/)
 -->
