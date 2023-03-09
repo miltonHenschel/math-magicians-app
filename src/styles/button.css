@@ -9,9 +9,17 @@ button {
   font-weight: 900;
 }
 
+button:hover {
+  background-color: #c3c3c3;
+}
+
 td.table-data.sign,
 .sign button {
   background-color: #ffa500;
+}
+
+.sign button:hover {
+  background-color: #ffb733;
 }
 
 td.table-data {
