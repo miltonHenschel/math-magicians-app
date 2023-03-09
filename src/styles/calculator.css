@@ -1,6 +1,6 @@
 table.table {
   margin: auto;
-  padding: 2rem;
+  padding: 0 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,4 +16,13 @@ tbody {
   padding: 2rem;
   background-color: #a9a9a9;
   font-weight: 900;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-weight: bold;
 }

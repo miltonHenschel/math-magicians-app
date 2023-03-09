@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import './button.css';
+
+import '../../styles/button.css';
 
 const Button = ({
   sign, className, colSpan, handleOnClick,
