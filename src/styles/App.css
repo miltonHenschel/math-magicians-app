@@ -1,0 +1,43 @@
+body {
+  background-color: darkslategrey;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #4f2f2f;
+  background-color: #426f6f;
+  font-weight: bold;
+}
+
+.link:hover li,
+.link:focus li {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+.link li:hover,
+.link li:focus {
+  opacity: 1;
+  filter: blur(0);
+}
+
+div {
+  padding: 1rem;
+  text-align: justify;
+}
