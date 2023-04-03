@@ -45,6 +45,8 @@
 
 **Math Magicians App** is a Single Page App (SPA) website for all fans of mathematics which allows users to make simple calculations and read a random math-related quote.
 
+![math-magicians-laptop](https://user-images.githubusercontent.com/87370519/229636862-0602c778-719e-48e3-beb0-a46634026142.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
